@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { lable 'NewWindows' } }
+    agent { lable 'NewWindows' }
 
     stages {
         stage('Build') {
